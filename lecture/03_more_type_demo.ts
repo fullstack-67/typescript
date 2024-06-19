@@ -36,4 +36,8 @@ const user: User = {
   },
 };
 
+user.role = "USER";
+user.posts.push({
+  title: "Title",
+});
 user.greet();
