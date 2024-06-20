@@ -41,3 +41,7 @@ user.posts.push({
   title: "Title",
 });
 user.greet();
+
+// --------------------------------
+const a = [1, 2, 5, 7] as const;
+// console.log(a[5]); // error
